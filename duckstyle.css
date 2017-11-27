@@ -37,3 +37,26 @@ p {
       background-color: #4CAF50;
       color: white;
 }
+
+@media (max-width: 800px) {
+.navbar{
+    display: flex;
+    justify-content: center;
+} 
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+}
+
+@media (max-width: 400px) {
+h1{
+    font-size:25px;
+}
+.navbar a{
+    font-size:12px;    
+}
+    
+}
+    
